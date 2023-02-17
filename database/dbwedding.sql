@@ -335,9 +335,8 @@ CREATE TABLE `tblusers` (
 --
 
 INSERT INTO `tblusers` (`id`, `firstname`, `lastname`, `gender`, `username`, `password`, `email`, `designation`, `address`, `access_level`, `profile_picture`, `date_created`) VALUES
-(5, 'Liam', 'Moore', 'm', 'adminliam', 'D00F5D5217896FB7FD601412CB890830', 'admin@mail.com', '0', 'Grand Meadows', '', 'user-icn-p-min.png', 'March 6, 2021, 5:15 pm'),
-(7, 'Ron', 'Joseph', 'm', 'ronj', '5f4dcc3b5aa765d61d8327deb882cf99', 'josephr@mail.com', '1', '20 Hazelwood Avenue', '', 'gr3.png', 'March 6, 2021, 3:45 pm'),
-(8, 'Pharell', 'Colin', 'm', 'pcolin', '1a1dc91c907325c69271ddf0c944bc72', 'pharell@mail.com', '1', '115 Test Street', '', 'gr4.png', 'April 13, 2022, 8:01 pm');
+(5, 'Dima', 'alnouri', 'f', 'dima', 'D00F5D5217896FB7FD601412CB890830', 'dima@mail.com', '0', 'mazzeh', '', 'user-icn-p-min.png', 'March 6, 2021, 5:15 pm'),
+(7, 'Tuleen', 'farah', 'f', 'tuleen', '5f4dcc3b5aa765d61d8327deb882cf99', 'tuleen@mail.com', '1', 'mazzeh', '', 'gr3.png', 'March 6, 2021, 3:45 pm'),
 
 -- --------------------------------------------------------
 
