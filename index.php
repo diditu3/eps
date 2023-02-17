@@ -211,7 +211,7 @@
                 <div class="pricing">
                     <ul class="list-group list-unstyled">
                         <li class="list-group-item text-center text-uppercase"><?= $category_row->wedding_type; ?></li>
-                        <li><img src="admin/<?= $category_row->preview_image_picture(); ?>" class="img-fluid" alt=""></li>
+                        <li><img src="images/pregnancy-5098881_1280.webp<?= $category_row->preview_image_picture(); ?>" class="img-fluid" alt=""></li>
                         <li class="list-group-item text-center"><b>THIS PACKAGE INCLUDES:</b></li>
                         <?php $feature = Features::find_by_feature_all($category_row->id); ?>
                             <?php foreach ($feature as $feature_item) : ?>
