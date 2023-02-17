@@ -23,17 +23,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="supp.php">About us</a>
-                </li>
+                
             </ul>
             <div class="form-inline mr-2">
                 <!-- <a class="mr-2" href="submit">
                     <i class="mdi mdi-star-outline" id="review" aria-hidden="true"></i> Write a review</a> -->
 <!--                <a class="btn btn-sm my-2 my-sm-0" href="login.php" data-toggle="modal" data-target="#loginModal">-->
-                <a class="btn btn-sm my-2 my-sm-0" href="admin/login.php"><i class="mdi mdi-star-outline" id="review" aria-hidden="true"></i>
+                <!--<a class="btn btn-sm my-2 my-sm-0" href="admin/login.php"><i class="mdi mdi-star-outline" id="review" aria-hidden="true"></i>
                     Admin Login
-                </a>
+                </a>-->
                 <a class="btn btn-sm my-2 my-sm-0" href="loginn.php"><i class="mdi mdi-star-outline" id="review" aria-hidden="true"></i>
                     USER Login
                 </a>
