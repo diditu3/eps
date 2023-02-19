@@ -335,7 +335,7 @@ CREATE TABLE `tblweddingbook` (
 -- Dumping data for table `tblweddingbook`
 --
 
-INSERT INTO `tblweddingbook` (`booking_id`, `user_id`, `bride`, `groom`, `wedding_type`, `user_email`, `wedding_date`, `organizer_id`) VALUES
+INSERT INTO `tblweddingbook` (`booking_id`, `user_id`, `bride`, `groom`, `wedding_type`, `user_email`, `wedding_date`) VALUES
 (1, 1, 'Jane Doe', 'John Dee', 3, 'jason@mail.com', '03/30/2022', 1),
 (2, 2, 'Elizabeth Brown', 'Pedro Afonso', 4, 'anniel@mail.com', '03/30/2022', 1),
 (3, 3, '', '', 0, 'rosieing@mail.com', '03/30/2022', 1),
@@ -386,11 +386,11 @@ CREATE TABLE `tblweddingcategories` (
 --
 
 INSERT INTO `tblweddingcategories` (`id`, `wedding_type`, `price`, `preview_image`) VALUES
-(1, 'Classic', '16500.00', 'classic.jpg'),
-(2, 'Elegant', '20000.00', 'elegnant.jpg'),
-(3, 'Premier', '24000.00', 'premier.jpg'),
-(4, 'Gold', '39500.00', 'timeless gold.jpg'),
-(5, 'Elite', '52000.00', 'elite.jpg');
+(1, 'wedding', '16500.00', 'classic.jpg'),
+(2, 'Engagement', '20000.00', 'elegnant.jpg'),
+(3, 'Birthday', '24000.00', 'premier.jpg'),
+(4, 'Graduation', '39500.00', 'timeless gold.jpg'),
+(5, 'Baby shower', '52000.00', 'elite.jpg');
 
 -- --------------------------------------------------------
 
